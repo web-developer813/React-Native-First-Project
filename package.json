@@ -1,0 +1,44 @@
+{
+  "name": "MockupReactNativeUIs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.6",
+    "react-mixin": "^2.0.2",
+    "react-native": "0.44.0",
+    "react-native-actionsheet": "^2.1.0",
+    "react-native-android-action-sheet": "0.0.1",
+    "react-native-image-picker": "^0.26.3",
+    "react-native-image-tools": "git+https://github.com/npomfret/react-native-image-tools.git",
+    "react-native-navigation": "^1.1.79",
+    "react-native-popup-menu": "^0.7.5",
+    "react-native-spinkit": "^1.0.2",
+    "react-native-uuid": "^1.4.9",
+    "react-native-vector-icons": "^4.1.1",
+    "react-redux": "^5.0.5",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "^1.9.2",
+    "buffer": "^5.0.6",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-react-native": "^2.3.2",
+    "jest": "20.0.3",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
